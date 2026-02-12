@@ -1,0 +1,9 @@
+# Import Data Source
+import pandas as pd
+
+# Loading dataset
+url = "https://storage.googleapis.com/dqlab-dataset/dqlab_telco.csv"
+df_load = pd.read_csv(url)
+print(df_load.shape)
+print(df_load.head(5))
+print(df_load.customerID.nunique())
