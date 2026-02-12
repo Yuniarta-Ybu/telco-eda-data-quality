@@ -1,7 +1,5 @@
-
 # Import Data Source
 import pandas as pd
-pd.options.display.max_columns = 50
 
 # Loading dataset
 url = "https://storage.googleapis.com/dqlab-dataset/dqlab_telco.csv"
